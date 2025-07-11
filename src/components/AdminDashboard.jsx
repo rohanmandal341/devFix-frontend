@@ -18,10 +18,11 @@ export default function AdminDashboard() {
     setSetups(data);
   };
 
+  
   const handleSearch = async () => {
     const res = await search(searchTerm.trim());
     if (res.length > 0) {
-      navigate("/search-result", { state: res[0] });
+      navigate("/search-result", { state: res }); 
     }
   };
 
@@ -31,7 +32,6 @@ export default function AdminDashboard() {
   };
 
   return (
-    // ✅ Adjusted px for small screens
     <div className="min-h-screen bg-gray-900 text-white px-4 sm:px-6 md:px-8 py-10">
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 border-b border-blue-500 pb-4 gap-4">
