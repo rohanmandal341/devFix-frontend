@@ -31,14 +31,17 @@ export default function AdminDashboard() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white px-8 py-10">
+    // ✅ Adjusted px for small screens
+    <div className="min-h-screen bg-gray-900 text-white px-4 sm:px-6 md:px-8 py-10">
       {/* Header */}
-      <div className="flex justify-between items-center mb-10 border-b border-blue-500 pb-4">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 border-b border-blue-500 pb-4 gap-4">
         <div>
           <h1 className="text-4xl font-bold text-blue-400 drop-shadow-lg tracking-wide">
             🧰 DevFix Admin Panel
           </h1>
-          <p className="text-sm text-gray-400 mt-1 pl-1">Manage your setups with power and style.</p>
+          <p className="text-sm text-gray-400 mt-1 pl-1">
+            Manage your setups with power and style.
+          </p>
         </div>
 
         <button
@@ -59,7 +62,7 @@ export default function AdminDashboard() {
       </div>
 
       {/* Table */}
-      <div className="border border-blue-500 rounded-xl shadow-2xl p-4 bg-gray-800">
+      <div className="border border-blue-500 rounded-xl shadow-2xl p-4 bg-gray-800 overflow-x-auto">
         <h2 className="text-xl font-semibold text-blue-300 mb-4 pl-2">📋 Setup List</h2>
         <VideoTable setups={setups} onDelete={handleDelete} navigate={navigate} />
       </div>
