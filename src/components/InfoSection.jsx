@@ -25,48 +25,50 @@ export default function InfoSection() {
         <VideoCard
           poster={Img1}
           video="/videos/react-download.mp4"
-          title="⚛ React + Tailwind Setup"
-          desc="Clean install of React via Vite, integrate Tailwind, and configure your dev tools to work with live reload and component routing."
+          title="🔹 How to Install shadcn/ui in React Project"
+          desc="Learn how to quickly set up and use shadcn/ui components in your React project built with Vite. Enhance your UI with clean, customizable components."
+
+
         />
 
         {/* 🔹 Card 2 */}
         <VideoCard
           poster={Img3}
           video="/videos/springboot-setup.mp4"
-          title="☕ Spring Boot + MySQL"
-          desc="End-to-end guide for Spring Boot backend setup with database, Maven, layered architecture, and secured APIs."
+          title="🔹 Tailwind CSS Setup with CLI"
+          desc="Install and configure Tailwind CSS using the CLI method for any frontend project. This is a beginner-friendly, step-by-step guide."
         />
 
         {/* 🔹 Card 3 */}
         <VideoCard
           poster={Img2}
           video="/videos/vscode-plugins.mp4"
-          title="🧩 VS Code & Dev Tools"
-          desc="Setup essential extensions, configure GitHub, formatters, run Java & React in one IDE, and boost your development workflow."
+          title="🔹 Full Stack Setup: Next.js + Spring Boot"
+          desc="Build a complete full stack application using Spring Boot for the backend and Next.js for the frontend. Learn how to connect both seamlessly."
         />
 
         {/* 🔹 Card 4 */}
         <VideoCard
           poster={Img6}
           video="/videos/react-download.mp4"
-          title="📦 Create React App vs Vite"
-          desc="Compare CRA and Vite for real-world performance, DX, Tailwind compatibility, and deployment efficiency."
+          title="🔹 How to Install Python on Linux"
+          desc="A quick guide to installing Python on Linux distributions using terminal commands. Perfect for backend or scripting development."
         />
 
         {/* 🔹 Card 5 */}
         <VideoCard
           poster={Img5}
           video="/videos/springboot-setup.mp4"
-          title="🧪 Spring Boot API Testing"
-          desc="Learn to build REST APIs and test with Postman, set status codes, CORS configs, and global exception handlers."
+          title="🔹 Install VS Code on Windows (Beginner Guide)"
+          desc="Step-by-step instructions to download and install Visual Studio Code on Windows, including setting up essential extensions."
         />
 
         {/* 🔹 Card 6 */}
         <VideoCard
           poster={Img7}
           video="/videos/vscode-plugins.mp4"
-          title="🚀 VS Code Power Shortcuts"
-          desc="Master keyboard shortcuts, multi-cursor editing, debugger setup, and live server tweaks in VS Code."
+          title="🔹 Python Programming Setup Guide"
+          desc="Set up your Python development environment with the right editor, tools, and best practices for beginners starting their coding journey."
         />
       </div>
     </section>
