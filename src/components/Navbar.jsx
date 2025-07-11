@@ -37,7 +37,7 @@ export default function Navbar() {
           {/* ✅ Show Dashboard if ADMIN */}
           {isAdmin && (
             <button
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/dashboard")}
               className="bg-yellow-500 hover:bg-yellow-400 text-black text-sm px-4 py-2 rounded font-bold shadow"
             >
               Dashboard
