@@ -12,6 +12,7 @@ This is the frontend application for **DevFix** — a developer-centric platform
 - 🧠 Gemini AI integrated (chat-based interface)
 
 ## 📁 Project Structure
+```bash
 
 devFix-frontend/
 ├── public/ # Static assets
@@ -23,7 +24,8 @@ devFix-frontend/
 ├── index.html # Vite entry point
 ├── package.json
 ├── vite.config.js
-
+```
+---
 
 
 ## 🚀 Running Locally
