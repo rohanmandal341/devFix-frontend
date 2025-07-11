@@ -31,7 +31,9 @@ function App() {
         <Route path="/search-result" element={<SearchResultPage />} />
 
         {/* Protected Admin Side */}
-        <Route path="/dashboard" element={isAdmin ? <AdminDashboard /> : <Navigate to="/home" />} />
+      <Route path="/dashboard" element={isAdmin ? <AdminDashboard /> : <Navigate to="/home" />} />
+      <Route path="/" element={<Navigate to="/home" />} />
+
         <Route path="/add" element={isAdmin ? <AddSetup /> : <Navigate to="/home" />} />
         <Route path="/edit/:id" element={isAdmin ? <EditSetup /> : <Navigate to="/home" />} />
       </Routes>
